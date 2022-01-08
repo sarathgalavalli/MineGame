@@ -1,0 +1,19 @@
+{
+    "include": [
+        "./src/*",
+        "./types.d.ts"
+    ],
+    "compilerOptions": {
+        "strict": true,
+        "esModuleInterop": true,
+        "lib": [
+            "dom",
+            "es2015",
+            "es2017"
+        ],
+        "jsx": "react",
+        "types": [
+            "./types.d.ts"
+        ]
+    }
+}
